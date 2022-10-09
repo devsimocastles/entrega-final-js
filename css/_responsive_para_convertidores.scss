@@ -1,0 +1,38 @@
+// MOBILE RESPONSIVE MIN: 350PX
+
+@media screen and (max-width: 1024px) {
+  .convertidor__monedas__body, .convertidor__temperaturas__body, .conversor__longitud__body, .conversor__peso__body {
+    .convertidor__monedas__h1, .temperatura__titulo, .longitud__titulo, .peso__titulo {
+      font-size: 2rem !important;
+        margin-top: 20rem;
+    }
+
+    .convertidor__monedas__p, .temperatura__parrafo , .longitud__parrafo, .peso__parrafo{
+      font-size: 1rem !important;
+    }
+
+    #input__contenedor, #temperatura__form, #longitud__form, #peso__form {
+        padding: 0 !important;
+      .inputs {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+
+         input{
+          margin-top: 1rem;
+        }
+         label {
+          margin-bottom: 2rem;
+          display: flex;
+          flex-direction: column;
+
+        }
+      }
+    }
+
+    .footer{
+        margin-top: 20em;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+.peso__main{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h1.peso__titulo{
+        font-size: 3rem;
+    }
+    p.peso__parrafo{
+        padding: 2em 0;
+        font-size: 1.4rem;
+    }
+    #peso__form{
+        .inputs{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 2em;
+            label{
+                font-weight: 800;
+                input{
+                    margin: 0 1em;
+                    padding: 1em;
+                    font-size: 1rem;
+                    font-weight: 800;
+                    border-radius: 7px;
+                    border: none;
+                    &:focus{
+                        outline: 1px solid $orange_web;
+                        box-shadow: 1px 1px 10px $orange_web;
+                    }
+                }
+            }
+        }
+        .boton__contenedor{
+            margin: 2em 0;
+            .boton__convertir{
+                padding: 1em 3em;
+                background-color: $orange_web;
+                box-shadow: 1px 1px 5px #2b3e6673;
+                font-weight: 800;
+                font-size: 1rem;
+                border: none;
+                border-radius: 7px;
+                &:focus{
+                    background-color: $platinum;
+                }   
+            }
+        }
+    }
+    .resultado__contenedor{
+        h2{
+            margin-top: 1em;
+        }
+        #resultado{
+                margin: 2rem;
+                font-size: 3rem;
+                font-weight: 800;
+        }
+    }
+}

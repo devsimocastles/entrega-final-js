@@ -1,0 +1,28 @@
+
+
+
+@media screen and (max-width:954px) {
+
+
+    .header{
+        span.logo{
+            padding-top: 1rem;
+        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 17em;
+
+        .nav{
+            ul{
+                display: flex;
+                flex-direction: column;
+                li{
+                    margin-bottom: 1rem;
+                }
+            }
+        }
+    }
+
+
+}

@@ -1,0 +1,25 @@
+
+
+
+@media screen and (max-width:954px) {
+
+    .footer{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 20em;
+
+        .pagemap__contenedor{
+            margin-bottom: 2rem;
+        }
+
+    }
+
+
+}
+
+@media screen and (max-width:600px){
+    .footer{
+        height: 30em;
+    }
+}

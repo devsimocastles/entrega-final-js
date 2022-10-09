@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Unidades de Peso | CONVERT-2</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body class="conversor__peso__body">
+    <header class="header">
+        <span class="logo">CONVERT-2</span>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="convertidor_de_monedas.html">Conversor de Monedas</a></li>
+                <li><a href="conversor_de_temperatura.html">Conversor de Temperatura</a></li>
+                <li><a href="conversor_longitud.html">Conversor de Unidades de Longitud</a></li>
+                <li><a href="conversor_unidades_peso.html">Conversor de Unidades de Peso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="peso__main">
+        <h1 class="peso__titulo">Conversor de Peso</h1>
+        <p class="peso__parrafo">A continuación elija las unidades de Peso que desea convertir:</p>
+        <form id="peso__form">
+            <div class="inputs">
+                <label>
+                    Unidad 1:
+                    <input list="peso__1" placeholder="Elija la primera unidad" id="unidad_peso1" required>
+                </label>
+                <datalist id="peso__1">
+                    <option value="Kilogramos"></option>
+                    <option value="Gramos"></option>
+                    <option value="Miligramos"></option>
+                    <option value="Libras"></option>
+                    <option value="Toneladas"></option>
+                    <option value="Onzas"></option>
+                </datalist>
+                <label>
+                    Unidad 2:
+                    <input list="peso__2" placeholder="Elija la segunda unidad" id="unidad_peso2" required>
+                </label>
+                <label>
+                    Peso:
+                    <input id="peso" type="text" placeholder="Ingrese el peso" required>
+                </label>
+                <datalist id="peso__2">
+                    <option value="Kilogramos"></option>
+                    <option value="Gramos"></option>
+                    <option value="Miligramos"></option>
+                    <option value="Libras"></option>
+                    <option value="Toneladas"></option>
+                    <option value="Onzas"></option>
+                </datalist>
+            </div>
+            <div class="boton__contenedor">     
+                <button class="boton__convertir">Convertir</button>
+            </div>
+        </form>
+        <section class="resultado__contenedor">
+            <h2>El resultado es:</h2>
+            <div id="resultado">
+                <!-- Aquí se escribirá el resultado -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="creditos__contenedor">
+            <h3>Hecho con &#10084; por Simón Castillo.</h3>
+            <h3 class="copyright">Todos los derechos reservados &copy; 2022</h3>
+        </section>
+        <section class="pagemap__contenedor">
+            <h3>Mapa de Sitio</h3>
+            <nav>
+                <ul>
+                    <li><h2>Conversores</h2></li>
+                    <li><a href="convertidor_de_monedas.html">Conversor de Monedas</a></li>
+                    <li><a href="conversor_de_temperatura.html">Conversor de Temperatura</a></li>
+                    <li><a href="conversor_longitud.html">Conversor de Unidades de Longitud</a></li>
+                    <li><a href="conversor_unidades_peso.html">Conversor de Unidades de Peso</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+
+    <script src="../js/conversor_peso_dom.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+
+
+// COLORES
+$black: #000000;
+$oxford_blue: #14213D;
+$orange_web: #fca311;
+$platinum: #e5e5e5;
+
+//TIPOGRAFIA
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;1,400;1,700;1,900&display=swap');
+
+// NAVS Y FOOTERS
+@import "_header.scss";
+@import "_footer.scss";
+
+//PAGINAS
+@import "_index.scss";
+@import "_convertidor_monedas.scss";
+@import "_convertidor_longitud.scss";
+@import "_conversor_temperatura.scss";
+@import "_conversor_unidades_peso.scss";
+
+
+// RESPONSIVE
+@import "_responsive_para_convertidores.scss";
+@import "_responsive_para_index.scss";
+@import "_responsive_para_header.scss";
+@import "_responsive_para_footer.scss";
+
+
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background-color: #e5e5e5;
+    color: $oxford_blue;
+    text-align: center;
+}
+

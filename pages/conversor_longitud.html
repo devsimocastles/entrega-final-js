@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Unidades de Longitud | CONVERT-2</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="conversor__longitud__body">
+    <header class="header">
+        <span class="logo">CONVERT-2</span>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="convertidor_de_monedas.html">Conversor de Monedas</a></li>
+                <li><a href="conversor_de_temperatura.html">Conversor de Temperatura</a></li>
+                <li><a href="conversor_longitud.html">Conversor de Unidades de Longitud</a></li>
+                <li><a href="conversor_unidades_peso.html">Conversor de Unidades de Peso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="longitud__main">
+        <h1 class="longitud__titulo">Conversor de Longitud</h1>
+        <p class="longitud__parrafo">A continuación elija las unidades de longitud que desea convertir:</p>
+        <form id="longitud__form">
+            <div class="inputs">
+                <label>
+                    Unidad 1:
+                    <input id="input_1" list="longitud_1" placeholder="Elija la primera unidad" required>
+                </label>
+                <label>
+                    Unidad 2:
+                    <input id="input_2" list="longitud_2" placeholder="Elija la segunda unidad" required>
+                </label>
+                <datalist id="longitud_2">za
+                    <option value="Metros"></option>
+                    <option value="Pies"></option>
+                    <option value="Pulgadas"></option>
+                    <option value="Millas"></option>
+                    <option value="Yardas"></option>
+                </datalist>
+                <label>
+                    Longitud:
+                    <input id="cantidad" type="text" placeholder="Ingrese la longitud" required>
+                </label>
+                <datalist id="longitud_1">
+                    <option value="Metros"></option>
+                    <option value="Pies"></option>
+                    <option value="Pulgadas"></option>
+                    <option value="Millas"></option>
+                    <option value="Yardas"></option>
+                </datalist>
+            </div>
+            <div class="boton__contenedor">
+                <button class="boton__convertir">Convertir</button>
+            </div>
+        </form>
+        <section class="resultado__contenedor">
+            <h2>El resultado es:</h2>
+            <div id="resultado">
+                <!-- Aquí se escribirá el resultado -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="creditos__contenedor">
+            <h3>Hecho con &#10084; por Simón Castillo.</h3>
+            <h3 class="copyright">Todos los derechos reservados &copy; 2022</h3>
+        </section>
+        <section class="pagemap__contenedor">
+            <h3>Mapa de Sitio</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <h2>Conversores</h2>
+                    </li>
+                    <li><a href="convertidor_de_monedas.html">Conversor de Monedas</a></li>
+                    <li><a href="conversor_de_temperatura.html">Conversor de Temperatura</a></li>
+                    <li><a href="conversor_longitud.html">Conversor de Unidades de Longitud</a></li>
+                    <li><a href="conversor_unidades_peso.html">Conversor de Unidades de Peso</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+
+    <script src="../js/conversor_longitud_dom.js"></script>
+</body>
+
+</html>

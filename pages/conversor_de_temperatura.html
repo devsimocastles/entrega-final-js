@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura | CONVERT-2</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    
+    <!-- Sweet Alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="convertidor__temperaturas__body">
+    <header class="header">
+        <span class="logo">CONVERT-2</span>
+        <nav class="nav">
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="convertidor_de_monedas.html">Conversor de Monedas</a></li>
+                <li><a href="conversor_de_temperatura.html">Conversor de Temperatura</a></li>
+                <li><a href="conversor_longitud.html">Conversor de Unidades de Longitud</a></li>
+                <li><a href="conversor_unidades_peso.html">Conversor de Unidades de Peso</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="temperatura__main">
+        <h1 class="temperatura__titulo">Conversor de Temperatura</h1>
+        <p class="temperatura__parrafo">A continuación elija las unidades de temperatura que desea convertir:</p>
+        <form id="temperatura__form">
+            <div class="inputs">
+                <label>Temperatura 1:
+                    <input id="temperatura__1a" class="list__input" list="temperatura_1" placeholder="Elija la primera unidad." required>
+                </label>
+                <datalist id="temperatura_1">
+                    <option value="C">Celcius</option>
+                    <option value="F">Fahrenheit</option>
+                    <option value="K">Kelvin</option>
+                </datalist>
+                <label>Temperatura 2:
+                    <input id="temperatura__2a" class="list__input" list="temperatura_2" placeholder="Elija la segunda unidad." required>
+                </label>
+                <datalist id="temperatura_2">
+                    <option value="C">Celcius</option>
+                    <option value="F">Fahrenheit</option>
+                    <option value="K">Kelvin</option>
+                </datalist>
+                <label>
+                    Temperatura:
+                    <input id="cantidad" type="text" placeholder="Ingrese la cantidad" required>
+                </label>
+            </div>
+            <div class="boton__contenedor">
+                <button class="boton__convertir">Convertir</button>
+            </div>
+        </form>
+        <section class="resultado__contenedor">
+            <h2>El resultado es:</h2>
+            <div id="resultado">
+                <!-- Aquí se escribirá el resultado -->
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="creditos__contenedor">
+            <h3>Hecho con &#10084; por Simón Castillo.</h3>
+            <h3 class="copyright">Todos los derechos reservados &copy; 2022</h3>
+        </section>
+        <section class="pagemap__contenedor">
+            <h3>Mapa de Sitio</h3>
+            <nav>
+                <ul>
+                    <li>
+                        <h2>Conversores</h2>
+                    </li>
+                    <li><a href="convertidor_de_monedas.html">Conversor de Monedas</a></li>
+                    <li><a href="conversor_de_temperatura.html">Conversor de Temperatura</a></li>
+                    <li><a href="conversor_longitud.html">Conversor de Unidades de Longitud</a></li>
+                    <li><a href="conversor_unidades_peso.html">Conversor de Unidades de Peso</a></li>
+                </ul>
+            </nav>
+        </section>
+    </footer>
+
+    <script src="../js/convertidor_de_temperatura_dom.js"></script>
+</body>
+</html>

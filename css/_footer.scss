@@ -1,0 +1,43 @@
+
+
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    height: 13em;
+
+    background-color: $oxford_blue;
+    color: $orange_web;
+    align-items: center;
+    .creditos__contenedor{
+        width: 50%;
+        h3.copyright{
+            margin-top: 1rem;
+        }
+    }
+    .pagemap__contenedor{
+        width: 50%;
+        h4{
+            margin-bottom: .5em;
+        }
+        nav{
+            ul{
+                list-style-type: none;
+                li{
+                    h2{
+                        margin-bottom: .5em;
+                    }
+                    a{
+                        color: $orange_web;
+                        text-decoration: none;
+                        &:hover{
+                            color: $platinum;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,28 @@
+@media screen and (max-width:1077px){
+    .index__main{
+        .index__title__container{
+            h1{
+                font-size: 2rem;
+            }
+        }
+        .index__tool__container{
+           .card__container{
+            display: grid;
+            grid-template-columns: none;
+            grid-template-rows: auto;
+      
+           }
+        }
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .index__main{
+        .index__title__container{
+            h1{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

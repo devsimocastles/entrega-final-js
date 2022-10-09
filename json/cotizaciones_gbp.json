@@ -1,0 +1,25 @@
+{
+    "moneda": "gbp",
+    "cambios": [
+        {
+            "moneda_a_convertir": "jpy",
+            "cambio": "161.83"
+        },
+        {
+            "moneda_a_convertir": "ars",
+            "cambio": "161.41"
+        },
+        {
+            "moneda_a_convertir": "eur",
+            "cambio": "1.16"
+        },
+        {
+            "moneda_a_convertir": "usd",
+            "cambio": "1.15"
+        },
+        {
+            "moneda_a_convertir": "brl",
+            "cambio": "5.94"
+        }
+    ]
+}

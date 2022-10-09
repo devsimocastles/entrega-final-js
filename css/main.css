@@ -1,0 +1,448 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;0,700;1,400;1,700;1,900&display=swap");
+.header {
+  background-color: #fca311;
+  display: flex;
+  justify-content: space-evenly;
+  height: 7.5em;
+}
+.header span.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #14213D;
+}
+.header .nav {
+  width: 80%;
+}
+.header .nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style-type: none;
+  height: 100%;
+}
+.header .nav ul li {
+  text-align: center;
+}
+.header .nav ul li a {
+  text-decoration: none;
+  color: #14213D;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.header .nav ul li a:hover {
+  text-decoration: underline;
+  color: #e5e5e5;
+}
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  height: 13em;
+  background-color: #14213D;
+  color: #fca311;
+  align-items: center;
+}
+.footer .creditos__contenedor {
+  width: 50%;
+}
+.footer .creditos__contenedor h3.copyright {
+  margin-top: 1rem;
+}
+.footer .pagemap__contenedor {
+  width: 50%;
+}
+.footer .pagemap__contenedor h4 {
+  margin-bottom: 0.5em;
+}
+.footer .pagemap__contenedor nav ul {
+  list-style-type: none;
+}
+.footer .pagemap__contenedor nav ul li h2 {
+  margin-bottom: 0.5em;
+}
+.footer .pagemap__contenedor nav ul li a {
+  color: #fca311;
+  text-decoration: none;
+}
+.footer .pagemap__contenedor nav ul li a:hover {
+  color: #e5e5e5;
+  text-decoration: underline;
+}
+
+.index__main {
+  width: 90%;
+  margin: 6em auto;
+}
+.index__main .index__title__container {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.index__main .index__title__container h1 {
+  margin-bottom: 0.5em;
+  font-weight: 900;
+  font-size: 3rem;
+  font-style: italic;
+}
+.index__main .index__tool__container h2 {
+  margin-bottom: 2em;
+}
+.index__main .index__tool__container .card__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+}
+.index__main .index__tool__container .card__container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 20em;
+}
+.index__main .index__tool__container .card__container .card .img__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index__main .index__tool__container .card__container .card .img__container img {
+  width: 6em;
+  height: 6em;
+}
+.index__main .index__tool__container .card__container .card .img__container img:nth-child(2) {
+  width: 4em;
+  height: 4em;
+}
+.index__main .index__tool__container .card__container .card .card__txt h3.card__title {
+  font-size: 1.75rem;
+  margin-bottom: 1em;
+}
+.index__main .index__tool__container .card__container .card .card__txt .card__p {
+  font-style: italic;
+}
+
+.convertidor__monedas__main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.convertidor__monedas__main h1.convertidor__monedas__h1 {
+  font-size: 3rem;
+}
+.convertidor__monedas__main p.convertidor__monedas__p {
+  padding: 2em 0;
+  font-size: 1.4rem;
+}
+.convertidor__monedas__main #input__contenedor .inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.convertidor__monedas__main #input__contenedor .inputs label {
+  font-weight: 800;
+}
+.convertidor__monedas__main #input__contenedor .inputs label input {
+  margin: 0 1em;
+  padding: 1em;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 7px;
+  border: none;
+}
+.convertidor__monedas__main #input__contenedor .inputs label input:focus {
+  outline: 1px solid #fca311;
+  box-shadow: 1px 1px 10px #fca311;
+}
+.convertidor__monedas__main #input__contenedor .boton__contenedor {
+  margin: 2em 0;
+}
+.convertidor__monedas__main #input__contenedor .boton__contenedor .boton__convertir {
+  padding: 1em 3em;
+  background-color: #fca311;
+  box-shadow: 1px 1px 5px rgba(43, 62, 102, 0.4509803922);
+  font-weight: 800;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+}
+.convertidor__monedas__main #input__contenedor .boton__contenedor .boton__convertir:focus {
+  background-color: #e5e5e5;
+}
+.convertidor__monedas__main .resultado__contenedor h2 {
+  margin-top: 1em;
+}
+.convertidor__monedas__main .resultado__contenedor #resultado {
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.longitud__main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.longitud__main h1.longitud__titulo {
+  font-size: 3rem;
+}
+.longitud__main p.longitud__parrafo {
+  padding: 2em 0;
+  font-size: 1.4rem;
+}
+.longitud__main #longitud__form .inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.longitud__main #longitud__form .inputs label {
+  font-weight: 800;
+}
+.longitud__main #longitud__form .inputs label input {
+  margin: 0 1em;
+  padding: 1em;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 7px;
+  border: none;
+}
+.longitud__main #longitud__form .inputs label input:focus {
+  outline: 1px solid #fca311;
+  box-shadow: 1px 1px 10px #fca311;
+}
+.longitud__main #longitud__form .boton__contenedor {
+  margin: 2em 0;
+}
+.longitud__main #longitud__form .boton__contenedor .boton__convertir {
+  padding: 1em 3em;
+  background-color: #fca311;
+  box-shadow: 1px 1px 5px rgba(43, 62, 102, 0.4509803922);
+  font-weight: 800;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+}
+.longitud__main #longitud__form .boton__contenedor .boton__convertir:focus {
+  background-color: #e5e5e5;
+}
+.longitud__main .resultado__contenedor h2 {
+  margin-top: 1em;
+}
+.longitud__main .resultado__contenedor #resultado {
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.temperatura__main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.temperatura__main h1.temperatura__titulo {
+  font-size: 3rem;
+}
+.temperatura__main p.temperatura__parrafo {
+  padding: 2em 0;
+  font-size: 1.4rem;
+}
+.temperatura__main #temperatura__form .inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.temperatura__main #temperatura__form .inputs label {
+  font-weight: 800;
+}
+.temperatura__main #temperatura__form .inputs label input {
+  margin: 0 1em;
+  padding: 1em;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 7px;
+  border: none;
+}
+.temperatura__main #temperatura__form .inputs label input:focus {
+  outline: 1px solid #fca311;
+  box-shadow: 1px 1px 10px #fca311;
+}
+.temperatura__main #temperatura__form .boton__contenedor {
+  margin: 2em 0;
+}
+.temperatura__main #temperatura__form .boton__contenedor .boton__convertir {
+  padding: 1em 3em;
+  background-color: #fca311;
+  box-shadow: 1px 1px 5px rgba(43, 62, 102, 0.4509803922);
+  font-weight: 800;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+}
+.temperatura__main #temperatura__form .boton__contenedor .boton__convertir:focus {
+  background-color: #e5e5e5;
+}
+.temperatura__main .resultado__contenedor h2 {
+  margin-top: 1em;
+}
+.temperatura__main .resultado__contenedor #resultado {
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.peso__main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.peso__main h1.peso__titulo {
+  font-size: 3rem;
+}
+.peso__main p.peso__parrafo {
+  padding: 2em 0;
+  font-size: 1.4rem;
+}
+.peso__main #peso__form .inputs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+.peso__main #peso__form .inputs label {
+  font-weight: 800;
+}
+.peso__main #peso__form .inputs label input {
+  margin: 0 1em;
+  padding: 1em;
+  font-size: 1rem;
+  font-weight: 800;
+  border-radius: 7px;
+  border: none;
+}
+.peso__main #peso__form .inputs label input:focus {
+  outline: 1px solid #fca311;
+  box-shadow: 1px 1px 10px #fca311;
+}
+.peso__main #peso__form .boton__contenedor {
+  margin: 2em 0;
+}
+.peso__main #peso__form .boton__contenedor .boton__convertir {
+  padding: 1em 3em;
+  background-color: #fca311;
+  box-shadow: 1px 1px 5px rgba(43, 62, 102, 0.4509803922);
+  font-weight: 800;
+  font-size: 1rem;
+  border: none;
+  border-radius: 7px;
+}
+.peso__main #peso__form .boton__contenedor .boton__convertir:focus {
+  background-color: #e5e5e5;
+}
+.peso__main .resultado__contenedor h2 {
+  margin-top: 1em;
+}
+.peso__main .resultado__contenedor #resultado {
+  margin: 2rem;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+@media screen and (max-width: 1024px) {
+  .convertidor__monedas__body .convertidor__monedas__h1, .convertidor__monedas__body .temperatura__titulo, .convertidor__monedas__body .longitud__titulo, .convertidor__monedas__body .peso__titulo, .convertidor__temperaturas__body .convertidor__monedas__h1, .convertidor__temperaturas__body .temperatura__titulo, .convertidor__temperaturas__body .longitud__titulo, .convertidor__temperaturas__body .peso__titulo, .conversor__longitud__body .convertidor__monedas__h1, .conversor__longitud__body .temperatura__titulo, .conversor__longitud__body .longitud__titulo, .conversor__longitud__body .peso__titulo, .conversor__peso__body .convertidor__monedas__h1, .conversor__peso__body .temperatura__titulo, .conversor__peso__body .longitud__titulo, .conversor__peso__body .peso__titulo {
+    font-size: 2rem !important;
+    margin-top: 20rem;
+  }
+  .convertidor__monedas__body .convertidor__monedas__p, .convertidor__monedas__body .temperatura__parrafo, .convertidor__monedas__body .longitud__parrafo, .convertidor__monedas__body .peso__parrafo, .convertidor__temperaturas__body .convertidor__monedas__p, .convertidor__temperaturas__body .temperatura__parrafo, .convertidor__temperaturas__body .longitud__parrafo, .convertidor__temperaturas__body .peso__parrafo, .conversor__longitud__body .convertidor__monedas__p, .conversor__longitud__body .temperatura__parrafo, .conversor__longitud__body .longitud__parrafo, .conversor__longitud__body .peso__parrafo, .conversor__peso__body .convertidor__monedas__p, .conversor__peso__body .temperatura__parrafo, .conversor__peso__body .longitud__parrafo, .conversor__peso__body .peso__parrafo {
+    font-size: 1rem !important;
+  }
+  .convertidor__monedas__body #input__contenedor, .convertidor__monedas__body #temperatura__form, .convertidor__monedas__body #longitud__form, .convertidor__monedas__body #peso__form, .convertidor__temperaturas__body #input__contenedor, .convertidor__temperaturas__body #temperatura__form, .convertidor__temperaturas__body #longitud__form, .convertidor__temperaturas__body #peso__form, .conversor__longitud__body #input__contenedor, .conversor__longitud__body #temperatura__form, .conversor__longitud__body #longitud__form, .conversor__longitud__body #peso__form, .conversor__peso__body #input__contenedor, .conversor__peso__body #temperatura__form, .conversor__peso__body #longitud__form, .conversor__peso__body #peso__form {
+    padding: 0 !important;
+  }
+  .convertidor__monedas__body #input__contenedor .inputs, .convertidor__monedas__body #temperatura__form .inputs, .convertidor__monedas__body #longitud__form .inputs, .convertidor__monedas__body #peso__form .inputs, .convertidor__temperaturas__body #input__contenedor .inputs, .convertidor__temperaturas__body #temperatura__form .inputs, .convertidor__temperaturas__body #longitud__form .inputs, .convertidor__temperaturas__body #peso__form .inputs, .conversor__longitud__body #input__contenedor .inputs, .conversor__longitud__body #temperatura__form .inputs, .conversor__longitud__body #longitud__form .inputs, .conversor__longitud__body #peso__form .inputs, .conversor__peso__body #input__contenedor .inputs, .conversor__peso__body #temperatura__form .inputs, .conversor__peso__body #longitud__form .inputs, .conversor__peso__body #peso__form .inputs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .convertidor__monedas__body #input__contenedor .inputs input, .convertidor__monedas__body #temperatura__form .inputs input, .convertidor__monedas__body #longitud__form .inputs input, .convertidor__monedas__body #peso__form .inputs input, .convertidor__temperaturas__body #input__contenedor .inputs input, .convertidor__temperaturas__body #temperatura__form .inputs input, .convertidor__temperaturas__body #longitud__form .inputs input, .convertidor__temperaturas__body #peso__form .inputs input, .conversor__longitud__body #input__contenedor .inputs input, .conversor__longitud__body #temperatura__form .inputs input, .conversor__longitud__body #longitud__form .inputs input, .conversor__longitud__body #peso__form .inputs input, .conversor__peso__body #input__contenedor .inputs input, .conversor__peso__body #temperatura__form .inputs input, .conversor__peso__body #longitud__form .inputs input, .conversor__peso__body #peso__form .inputs input {
+    margin-top: 1rem;
+  }
+  .convertidor__monedas__body #input__contenedor .inputs label, .convertidor__monedas__body #temperatura__form .inputs label, .convertidor__monedas__body #longitud__form .inputs label, .convertidor__monedas__body #peso__form .inputs label, .convertidor__temperaturas__body #input__contenedor .inputs label, .convertidor__temperaturas__body #temperatura__form .inputs label, .convertidor__temperaturas__body #longitud__form .inputs label, .convertidor__temperaturas__body #peso__form .inputs label, .conversor__longitud__body #input__contenedor .inputs label, .conversor__longitud__body #temperatura__form .inputs label, .conversor__longitud__body #longitud__form .inputs label, .conversor__longitud__body #peso__form .inputs label, .conversor__peso__body #input__contenedor .inputs label, .conversor__peso__body #temperatura__form .inputs label, .conversor__peso__body #longitud__form .inputs label, .conversor__peso__body #peso__form .inputs label {
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .convertidor__monedas__body .footer, .convertidor__temperaturas__body .footer, .conversor__longitud__body .footer, .conversor__peso__body .footer {
+    margin-top: 20em;
+  }
+}
+@media screen and (max-width: 1077px) {
+  .index__main .index__title__container h1 {
+    font-size: 2rem;
+  }
+  .index__main .index__tool__container .card__container {
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .index__main .index__title__container h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 954px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 17em;
+  }
+  .header span.logo {
+    padding-top: 1rem;
+  }
+  .header .nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .header .nav ul li {
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 954px) {
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    height: 20em;
+  }
+  .footer .pagemap__contenedor {
+    margin-bottom: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer {
+    height: 30em;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: #e5e5e5;
+  color: #14213D;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */

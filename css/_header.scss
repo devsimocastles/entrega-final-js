@@ -1,0 +1,41 @@
+
+
+.header{
+    background-color: $orange_web;
+
+    display: flex;
+    justify-content: space-evenly;
+    height: 7.5em;
+
+    span.logo{
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: $oxford_blue;
+        
+    }
+    .nav{
+        width: 80%;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style-type: none;
+            height: 100%;
+            li{
+                text-align: center;
+                a{
+                    text-decoration: none;
+                    color: $oxford_blue;
+                    font-size: 1rem;
+                    font-weight: 800;
+                    &:hover{
+                        text-decoration: underline;
+                        color: $platinum;
+                    }
+                }
+            }
+        }
+    }
+}
